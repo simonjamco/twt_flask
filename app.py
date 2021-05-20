@@ -83,6 +83,10 @@ def logout():
     return redirect(url_for('login'))
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     db.create_all()
     app.run(debug=True)
+=======
+    app.run(use_reloader=False, debug=True)
+>>>>>>> 5189e2967aa5747c86d91d95542b740664077e9d
 
